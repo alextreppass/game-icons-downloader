@@ -1,0 +1,32 @@
+{
+  "name": "game-icons-downloader",
+  "version": "1.0.0",
+  "description": "game-icons.net icon downloader / deduper",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alextreppass/game-icons-downloader.git"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "game-icons-downloader": "./bin/game-icons-downloader.js"
+  },
+  "keywords": [
+    "game-icons.net"
+  ],
+  "author": "Alex Treppass (https://github.com/alextreppass)",
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://raw.githubusercontent.com/alextreppass/game-icons-downloader/master/LICENCE"
+  }],
+  "dependencies": {
+    "async": "^1.5.1",
+    "bluebird": "^3.1.1",
+    "cheerio": "^0.19.0",
+    "fs-extra": "^0.26.3",
+    "lodash": "^3.10.1",
+    "minimist": "^1.2.0",
+    "request": "^2.67.0",
+    "yauzl": "^2.4.1"
+  }
+}
